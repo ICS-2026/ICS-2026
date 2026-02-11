@@ -1,0 +1,130 @@
+<!-- Speakers Section -->
+<section id="speakers" class="container my-5">
+  <h2 class="section-title">International Delegates</h2>
+  <div class="row text-center g-4">
+
+    <!-- Speaker 1 -->
+    <div class="col-md-3 col-sm-6">
+      <img src="E:\image\nrb.jpeg" alt="Dr. N. Ramesh Babu" 
+     class="img-fluid mb-3 shadow-sm" 
+     style="max-width:180px; height:auto; border-radius:10px;">
+
+      <h5 class="fw-bold">Dr. N. Ramesh Babu</h5>
+      <p class="mb-1">Institute Name,<br>Place</p>
+    </div>
+
+    <!-- Speaker 2 -->
+
+    <div class="col-md-3 col-sm-6">
+      <img src="E:\image\hs.jpg" alt="Dr. N. Ramesh Babu" 
+     class="img-fluid mb-3 shadow-sm" 
+     style="max-width:180px; height:auto; border-radius:10px;">
+
+      <h5 class="fw-bold">Dr. S. Harshavarthini</h5>
+      <p class="mb-1">Institute Name,<br>Place</p>
+    </div>
+
+    
+    <!-- Speaker 3 -->
+    <div class="col-md-3 col-sm-6">
+      <img src="E:\image\bp.jpg" alt="Dr. N. Ramesh Babu" 
+     class="img-fluid mb-3 shadow-sm" 
+     style="max-width:180px; height:auto; border-radius:10px;">
+
+      <h5 class="fw-bold">Prof. P. Balasubramaniam</h5>
+      <p class="mb-1">Institute Name,<br>Place</p>
+    </div>
+
+    <!-- Speaker 4 -->
+    <div class="col-md-3 col-sm-6">
+      <img src="E:\image\st.jpg" alt="Dr. N. Ramesh Babu" 
+     class="img-fluid mb-3 shadow-sm" 
+     style="max-width:180px; height:auto; border-radius:10px;">
+
+      <h5 class="fw-bold">Dr. Sathiyaraj Thambiayya</h5>
+      <p class="mb-1">Institute Name,<br>Place</p>
+    </div>
+  </div>
+</section>
+
+<!-- Speakers Section -->
+<section id="speakers" class="container my-5">
+  <h2 class="section-title">National Delegates</h2>
+  <div class="row text-center g-4">
+
+    <!-- Speaker 1 -->
+    <div class="col-md-3 col-sm-6">
+      <img src="E:\image\nrb.jpeg" alt="Dr. N. Ramesh Babu" 
+     class="img-fluid mb-3 shadow-sm" 
+     style="max-width:180px; height:auto; border-radius:10px;">
+
+      <h5 class="fw-bold">Dr. N. Ramesh Babu</h5>
+      <p class="mb-1">Institute Name,<br>Place</p>
+    </div>
+
+    <!-- Speaker 2 -->
+
+    <div class="col-md-3 col-sm-6">
+      <img src="E:\image\hs.jpg" alt="Dr. N. Ramesh Babu" 
+     class="img-fluid mb-3 shadow-sm" 
+     style="max-width:180px; height:auto; border-radius:10px;">
+
+      <h5 class="fw-bold">Dr. S. Harshavarthini</h5>
+      <p class="mb-1">Institute Name,<br>Place</p>
+    </div>
+
+    
+    <!-- Speaker 3 -->
+    <div class="col-md-3 col-sm-6">
+      <img src="E:\image\bp.jpg" alt="Dr. N. Ramesh Babu" 
+     class="img-fluid mb-3 shadow-sm" 
+     style="max-width:180px; height:auto; border-radius:10px;">
+
+      <h5 class="fw-bold">Prof. P. Balasubramaniam</h5>
+      <p class="mb-1">Institute Name,<br>Place</p>
+    </div>
+
+    <!-- Speaker 4 -->
+    <div class="col-md-3 col-sm-6">
+      <img src="E:\image\st.jpg" alt="Dr. N. Ramesh Babu" 
+     class="img-fluid mb-3 shadow-sm" 
+     style="max-width:180px; height:auto; border-radius:10px;">
+
+      <h5 class="fw-bold">Dr. Sathiyaraj Thambiayya</h5>
+      <p class="mb-1">Institute Name,<br>Place</p>
+    </div>
+  </div>
+</section>
+
+<!-- Schedule Section -->
+<section id="schedule" class="container my-5">
+  <h2 class="section-title">Workshop Schedule</h2>
+
+  <!-- Day 1 -->
+  <div class="date-header">Saturday, August 30, 2025</div>
+  <div class="event-card">
+    <div class="event-time">3:00 PM – 5:00 PM</div>
+    <div class="event-title">Registration Open</div>
+    <div class="event-location">Foyer outside of Hall 1 – Lower Level EAST</div>
+  </div>
+
+  <!-- Day 2 -->
+  <div class="date-header">Sunday, August 31, 2025</div>
+  <div class="event-card">
+    <div class="event-time">9:00 AM – 4:30 PM</div>
+    <div class="event-title">Registration Open</div>
+    <div class="event-location">Foyer outside of Hall 1 – Lower Level EAST</div>
+  </div>
+
+  <div class="event-card">
+    <div class="event-time">10:00 AM – 11:30 AM</div>
+    <div class="event-title">QSEEC01 – Welcome to QSEEC 2025!</div>
+    <div class="event-location">Aztec (#140) – Ground Level EAST</div>
+  </div>
+
+  <div class="event-card">
+    <div class="event-time">10:00 AM – 11:30 AM</div>
+    <div class="event-title">TP07:QALG::228:801 Scalable and Adaptive QAOA for Real-World Optimization I</div>
+    <div class="event-location">Taos (#30) – Lower Level WEST</div>
+  </div>
+</section>
