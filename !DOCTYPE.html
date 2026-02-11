@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ICS – 2025 Workshop</title>
+  <title>ICS – 2026 Workshop</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body { font-family: Arial, sans-serif; scroll-behavior: smooth; }
-    .navbar { background-color: #002147; }
+    .navbar { background-color: #002147; } /* Dark Blue like IITM */
     .navbar-brand img { max-height: 50px; }
     .navbar-nav .nav-link { color: white !important; margin: 0 10px; }
     .navbar-nav .nav-link:hover { text-decoration: underline; }
-    .btn-flyer { border: 1px solid #fff; color: #fff; }
-    .btn-flyer:hover { background: #fff; color: #002147; }
+    .btn-flyer { border: 1px solid #e4ffc2; color: #e4ffc2; }
+    .btn-flyer:hover { background: #e4ffc2; color: #e4ffc2; }
 
     /* Hero Section */
     .hero {
@@ -28,16 +28,17 @@
       position: absolute;
       top: 0; left: 0;
       width: 100%; height: 100%;
-      background: rgba(0, 0, 0, 0.4);
+      background: rgba(0, 0, 0, 0.4); /* dark overlay for readability */
     }
-    .hero .container { position: relative; z-index: 1; }
-
+    .hero .container {
+      position: relative;
+      z-index: 1;
+    }
     .section-title {
       border-left: 4px solid #002147;
       padding-left: 10px;
       margin-bottom: 20px;
     }
-
     footer {
       background-color: #002147;
       color: white;
@@ -52,57 +53,111 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
   <div class="container-fluid">
+    
+    <!-- Logo -->
     <a class="navbar-brand d-flex align-items-center" href="#home">
-      <img src="logo.png" alt="Logo">
-    </a>
+     <h2 class="fw-bold" style="color: white; margin-left: -10px;">QMI-2025</h2>
+     </a>
 
+    <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <!-- Menu Items -->
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
-        <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
-        <li class="nav-item"><a class="nav-link" href="#participants">Selected Participants</a></li>
-        <li class="nav-item"><a class="nav-link" href="#schedule">Schedule </a></li>
-        <li class="nav-item"><a class="nav-link" href="#how-to-reach">How to Reach</a></li>
-        <li class="nav-item"><a class="nav-link" href="#sightseeing">Sightseeing</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="websitelink.html#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="organizers.html">Organizers</a></li>
+        <li class="nav-item"><a class="nav-link" href="websitelink.html#speakers">Speakers</a></li>
+        <li class="nav-item"><a class="nav-link" href="selectedparticipants.html">Selected Participants</a></li>
+        <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule </a></li>
+        <li class="nav-item"><a class="nav-link" href="howtoreach.html">How to Reach</a></li>
+        <li class="nav-item"><a class="nav-link" href="sightseeing.html">Sightseeing</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
     </div>
 
-    <!-- View Flyer Button -->
-    <div class="d-none d-lg-block">
-      <a href="flyer.jpg" target="_blank" class="btn btn-flyer">View Flyer</a>
+    
+    <!-- ✅ Button OUTSIDE modal -->
+<div class="d-none d-lg-block">
+  <a href="flyer.jpg" target="_blank" class="btn btn-flyer">View Flyer</a>
+</div>
+
+<!-- ✅ Modal -->
+<div class="modal fade" id="flyerModal" tabindex="-1" aria-labelledby="flyerModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="flyerModalLabel">Workshop Brochure</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="E:\image\brochure1.jpg" alt="Workshop Flyer" class="img-fluid rounded">
+      </div>
     </div>
+  </div>
+</div>
+
   </div>
 </nav>
 
 <!-- Hero Section -->
 <section id="home" class="hero d-flex align-items-center">
   <div class="container">
-    <h1 class="fw-bold">Workshop on Quantum Mathematics and Imaging for Smart Manufacturing and Industry 4.0</h1>
-    <p class="lead">(ICS – 2025) | 5-Day National Workshop</p>
+    <h1 class="fw-bold">Workshop on "Quantum Mathematics and Imaging for Smart Manufacturing and Industry 4.0"</h1>
+    <p class="lead">(QMI – 2025) | 5-Day International Workshop</p>
     <div class="mt-4">
-      <img src="logo.jpg" alt="ICS Logo" style="max-width: 150px; margin-right:20px;">
+      <img src="logo.jpg" alt="QMI Logo" style="max-width: 150px; margin-right:20px;">
       <img src="vitlogo.jpg" alt="VIT Logo" style="max-width: 250px;">
     </div>
   </div>
 </section>
+<!-- Registration Deadline Notice -->
+<section class="deadline-banner py-2">
+  <div class="container text-center">
+    <p class="mb-0 fw-bold text-white">
+      🚨 Last date for registration: <span style="text-decoration: underline;">December 14, 2025</span>
+    </p>
+  </div>
+</section>
+
+<style>
+  .deadline-banner {
+    background-color: #dc3545; /* Red background */
+    color: white;
+    font-size: 18px;
+    animation: slideIn 10s linear infinite;
+  }
+
+  /* Optional: scrolling left-to-right effect */
+  .deadline-banner p {
+    display: inline-block;
+    white-space: nowrap;
+    animation: moveText 12s linear infinite;
+  }
+
+  @keyframes moveText {
+    0%   { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+</style>
+
 
 <!-- About Workshop -->
 <section id="overview" class="container my-5">
-  <h2 class="section-title">About Workshop</h2>
+  <h2 class="section-title">About Workshop </h2>
   <p>
-    The <b>5-Day National Workshop on Quantum Mathematics and Imaging for Smart Manufacturing and Industry 4.0 (ICS–2025)</b> 
+    The <b>5-Day International Workshop on Quantum Mathematics and Imaging for Smart Manufacturing and Industry 4.0 (QMI–2025)</b> 
     aims to bring together researchers, academicians, and industry experts to explore the intersection of 
     <i>quantum mathematics, advanced imaging technologies, and smart manufacturing practices</i>. 
+    This workshop will provide hands-on training sessions, keynote lectures from international experts, 
+    and collaborative discussions to foster innovation and entrepreneurship in the field of Industry 4.0.
   </p>
   <p>
     Participants will gain exposure to the latest developments in <b>quantum computing, AI-driven imaging, and industrial automation</b>, 
-    with a focus on solving real-world problems.
+    with a focus on solving real-world problems. The workshop is designed to bridge academia and industry by equipping participants 
+    with both theoretical foundations and practical skills.
   </p>
 </section>
 
@@ -111,27 +166,49 @@
   <div class="container">
     <h2 class="text-center fw-bold mb-5">Key Insights from the Workshop</h2>
     <div class="row g-4">
+
+      <!-- Card 1 -->
       <div class="col-md-4">
         <div class="card h-100 shadow text-center p-4" style="border-radius:15px;">
-          <div class="mb-3"><span style="font-size:40px; color:#4a90e2;">🎓</span></div>
+          <div class="mb-3">
+            <span style="font-size:40px; color:#4a90e2;">🎓</span>
+          </div>
           <h5 class="fw-bold">Quantum Mathematics</h5>
-          <p>Explore principles and applications of quantum mathematics for computation and Industry 4.0.</p>
+          <p>
+            Explore fundamental principles and applications of quantum mathematics, 
+            focusing on solving complex problems in computation, communication, and Industry 4.0.
+          </p>
         </div>
       </div>
+
+      <!-- Card 2 -->
       <div class="col-md-4">
         <div class="card h-100 shadow text-center p-4" style="border-radius:15px;">
-          <div class="mb-3"><span style="font-size:40px; color:#4a90e2;">⚗️</span></div>
+          <div class="mb-3">
+            <span style="font-size:40px; color:#4a90e2;">⚗️</span>
+          </div>
           <h5 class="fw-bold">Imaging & Smart Manufacturing</h5>
-          <p>Learn imaging techniques for industrial automation, defect detection, and predictive maintenance.</p>
+          <p>
+            Learn cutting-edge imaging techniques and their integration with 
+            industrial automation for defect detection, quality control, and predictive maintenance.
+          </p>
         </div>
       </div>
+
+      <!-- Card 3 -->
       <div class="col-md-4">
         <div class="card h-100 shadow text-center p-4" style="border-radius:15px;">
-          <div class="mb-3"><span style="font-size:40px; color:#4a90e2;">📊</span></div>
+          <div class="mb-3">
+            <span style="font-size:40px; color:#4a90e2;">📊</span>
+          </div>
           <h5 class="fw-bold">AI & Entrepreneurship</h5>
-          <p>Understand the role of AI in Industry 4.0 and translating research into real-world ventures.</p>
+          <p>
+            Understand the role of Artificial Intelligence in Industry 4.0 
+            and how to translate innovative research into real-world entrepreneurial ventures.
+          </p>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -140,26 +217,39 @@
 <section id="speakers" class="container my-5">
   <h2 class="section-title">Speakers</h2>
   <div class="row text-center g-4">
+
+    <!-- Speaker 1 -->
     <div class="col-md-3 col-sm-6">
-      <img src="msd.jpg" class="rounded-circle img-fluid mb-3" style="width:180px; height:180px; object-fit:cover;">
+      <img src="E:\image\msd.jpg" alt="Oscar Iván Agudelo" class="rounded-circle img-fluid mb-3" style="width:180px; height:180px; object-fit:cover;">
       <h5 class="fw-bold">MS Dhoni</h5>
-      <p class="mb-1">University of West Bohemia, Czech Republic</p>
+      <p class="mb-1">University of West Bohemia,<br>Czech Republic</p>
+      <a href="#" target="_blank"><i class="bi bi-link-45deg" style="font-size:20px;"></i></a>
     </div>
+
+    <!-- Speaker 2 -->
     <div class="col-md-3 col-sm-6">
-      <img src="sr.jpg" class="rounded-circle img-fluid mb-3" style="width:180px; height:180px; object-fit:cover;">
+      <img src="E:\image\sr.jpg" alt="Vladimir Bobkov" class="rounded-circle img-fluid mb-3" style="width:180px; height:180px; object-fit:cover;">
       <h5 class="fw-bold">Suresh Raina</h5>
-      <p class="mb-1">IMCC UFA, Russian Academy of Science, Russia</p>
+      <p class="mb-1">IMCC UFA, Russian Academy of Science,<br>Russia</p>
+      <a href="#" target="_blank"><i class="bi bi-link-45deg" style="font-size:20px;"></i></a>
     </div>
+
+    <!-- Speaker 3 -->
     <div class="col-md-3 col-sm-6">
-      <img src="vk.jpg" class="rounded-circle img-fluid mb-3" style="width:180px; height:180px; object-fit:cover;">
+      <img src="E:\image\vk.jpg" alt="Maya Chhetri" class="rounded-circle img-fluid mb-3" style="width:180px; height:180px; object-fit:cover;">
       <h5 class="fw-bold">Virat Kohli</h5>
-      <p class="mb-1">University of North Carolina at Greensboro, USA</p>
+      <p class="mb-1">University of North Carolina at Greensboro,<br>USA</p>
+      <a href="#" target="_blank"><i class="bi bi-link-45deg" style="font-size:20px;"></i></a>
     </div>
+
+    <!-- Speaker 4 -->
     <div class="col-md-3 col-sm-6">
-      <img src="rs.jpg" class="rounded-circle img-fluid mb-3" style="width:180px; height:180px; object-fit:cover;">
+      <img src="E:\image\rs.jpg" alt="Cristian Enache" class="rounded-circle img-fluid mb-3" style="width:180px; height:180px; object-fit:cover;">
       <h5 class="fw-bold">Rohit Sharma</h5>
-      <p class="mb-1">American University of Sharjah, UAE</p>
+      <p class="mb-1">American University of Sharjah,<br>UAE</p>
+      <a href="#" target="_blank"><i class="bi bi-link-45deg" style="font-size:20px;"></i></a>
     </div>
+
   </div>
 </section>
 
@@ -176,8 +266,8 @@
           Vellore Institute of Technology,<br>
           Chennai – 600127, Tamil Nadu, India
         </p>
-        <p><b>Email:</b> </p>
-        <p><b>Mobile:</b> 8110818304</p>
+        <p><b>Email:</b> qmi2025workshop@gmail.com</p>
+        <p><b>Mobile:</b> 8778097050</p>
       </div>
 
       <!-- Useful Links -->
@@ -208,7 +298,7 @@
 <!-- Footer -->
 <footer>
   <div class="container text-center">
-    <p>© 2026 ICS Workshop – VIT Chennai | All Rights Reserved</p>
+    <p>© 2025 QMI Workshop – VIT Chennai | All Rights Reserved</p>
     <div>
       <a href="#speakers">Speakers</a> |   
       <a href="#contact">Contact</a>
