@@ -11,8 +11,8 @@
     .navbar-brand img { max-height: 50px; }
     .navbar-nav .nav-link { color: white !important; margin: 0 10px; }
     .navbar-nav .nav-link:hover { text-decoration: underline; }
-    .btn-flyer { border: 1px solid #fff; color: #fff; }
-    .btn-flyer:hover { background: #fff; color: #002147; }
+    .btn-flyer { border: 1px solid #e4ffc2; color: #e4ffc2; }
+    .btn-flyer:hover { background: #e4ffc2; color: #e4ffc2; }
 
     /* Hero Section */
     .hero {
@@ -313,3 +313,4 @@
 
 </body>
 </html>
+
